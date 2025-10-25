@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+}
+
+.navbar button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(64, 64, 208);
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+.text {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.our-web{
+    width: 200px;
+}
+.links {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    
+}
+
+.img img {
+    width: 200px;
+    height: 200px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+}
+
+.img {
+    display: flex;
+    gap: 50px;
+    max-width: 1050px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.iconkalar {
+    display: flex;
+    gap: 10px;
+}
+
+.part h4 {
+    width: 500px;
+}
+
+.part {
+    padding: 70px 50px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media (max-width:1200px){
+    .img{
+    justify-content: center;
+       align-items: center;
+       max-width: 100%;
+    }
+.navbar{
+    
+    justify-content: space-around;
+}
+    .part{
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+}
+@media (max-width:992px){
+    .iconkalar{
+        margin-top: 7rem;
+        margin-right: 25rem;
+    }
+    .our-web h4{
+        text-align: center;
+    }
+    
+}
+@media (max-width:769px){
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+    .links{
+        gap: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .img{
+        
+        max-width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .text{
+        width: 400px;
+        justify-content: center;
+    }
+    .our-web h4{
+        text-align: center;
+        width: 200px;
+    }
+    .iconkalar{
+        margin-top: 0px;
+    }
+}
+@media (max-width:576px){
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+    .links{
+        gap: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .img{
+       max-width: 100%;
+       justify-content: center;
+    }
+    .text{
+        width: 370px;
+        justify-content: center;
+    }
+    .our-web h4{
+        width: 250px;
+    }
+    .part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .iconkalar{
+        margin-left: 28rem;
+    }
+    
+    
+
+}
+@media (max-width:473px){
+   
+    .links{
+        display: block;
+        
+    }
+
+
+}
+    
+
+
